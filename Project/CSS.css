@@ -1,0 +1,25 @@
+body{
+    background-image: url("Images/Heinz+baked+beans.jpg");
+    background-repeat: repeat;
+}
+
+.NavBar{
+    border-radius: 10px;
+    position: sticky;
+    background-color: #009Fa8;
+}
+
+.NavBar ul{
+    overflow: auto;
+}
+
+.NavBar li{
+    list-style: none;
+    float: left;
+
+}
+
+.Navbar li a {
+    padding: 3px 4px;
+    text-decoration: none;
+}
