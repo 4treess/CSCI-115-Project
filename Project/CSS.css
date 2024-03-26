@@ -4,22 +4,104 @@ body{
 }
 
 .NavBar{
-    border-radius: 10px;
+    border-radius: 530px;
+    padding: 0.25% 0%;
     position: sticky;
-    background-color: #009Fa8;
+    top: 4px;
+    background-color: #2e81ff;
+    z-index: 1024;
 }
 
 .NavBar ul{
+    padding-left: 7%;
     overflow: auto;
 }
 
 .NavBar li{
     list-style: none;
     float: left;
+    padding-right: 4%;
+}
 
+li a {
+    text-decoration: none;
+    color: #eeeeee;
 }
 
 .Navbar li a {
-    padding: 3px 4px;
     text-decoration: none;
+    font-size: 4vw;
+}
+
+.background {
+    margin-top: 2%;
+    padding: 2px;
+    background-color: brown;
+    padding-bottom: 100%;
+    border-radius: 10px;
+    display: flex;
+    z-index: -1;
+    position: relative;
+}
+
+.box1, .box2{
+    border-radius: 10px;
+    z-index: 1;
+    margin: 0px;
+    padding: 20% 50%;
+    background-color: #fcfcfe;
+    position: absolute;
+}
+
+.titlebox{
+    background-image: url("Images/G27NFCX3_output_1.jpeg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 10%;
+    border-radius: 10px;
+    z-index: 0;
+    margin: 0px;
+    padding: 40% 50%;
+    position: relative;
+}
+
+.background h1{
+    text-wrap: nowrap; 
+    position: absolute; 
+    font-size: 5vw;
+}
+
+.background p{
+    text-wrap: nowrap; 
+    position: absolute; 
+    font-size: 3vw;
+}
+
+.box1 img {
+    position: absolute;
+    height: 99%;
+    left: 0.5%;
+    top: 0.5%;
+    border-radius: 10px;
+}
+
+.box1 p{
+    text-wrap: wrap;
+    top: -6%;
+}
+
+.box2 img {
+    position: absolute;
+    height: 99%;
+    right: 0.5%;
+    top: 0.5%;
+    border-radius: 10px;
+}
+
+.box2 p{
+    top: -6%;
+    text-align: left;
+    right: 49.5%;
+    width: 50%;
+    text-wrap: wrap;
 }
