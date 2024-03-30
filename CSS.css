@@ -47,7 +47,7 @@ li a {
 
 .box1, .box2{
     border-radius: 10px;
-    z-index: 1;
+    z-index: 0;
     margin: 0px;
     padding: 19.5% 50%;
     background-color: #fcfcfe;
@@ -55,13 +55,11 @@ li a {
 }
 
 .background h1{
-    text-wrap: nowrap; 
     position: absolute; 
     font-size: 5vw;
 }
 
 .background p, form{
-    text-wrap: nowrap; 
     position: absolute; 
     font-size: 3vw;
 }
@@ -75,7 +73,6 @@ li a {
 }
 
 .box1 p, .box1 h1{
-    text-wrap: wrap;
     top: -6%;
 }
 
@@ -92,7 +89,6 @@ li a {
     text-align: left;
     left: 1%;
     width: 50%;
-    text-wrap: wrap;
 }
 
 #dropdown{
