@@ -34,10 +34,11 @@ li a {
 }
 
 .background {
-    margin-top: 2%;
+    margin-top: 1%;
+    margin-bottom: 1%;
     padding: 2px;
     background-color: brown;
-    padding-bottom: 100%;
+    padding-bottom: 118%;
     border-radius: 10px;
     display: flex;
     z-index: -1;
@@ -48,21 +49,9 @@ li a {
     border-radius: 10px;
     z-index: 1;
     margin: 0px;
-    padding: 20% 50%;
+    padding: 19.5% 50%;
     background-color: #fcfcfe;
     position: absolute;
-}
-
-.titlebox{
-    background-image: url("Images/G27NFCX3_output_1.jpeg");
-    background-repeat: no-repeat;
-    background-size: 100%;
-    background-position-y: 10%;
-    border-radius: 10px;
-    z-index: 0;
-    margin: 0px;
-    padding: 40% 50%;
-    position: relative;
 }
 
 .background h1{
@@ -85,7 +74,7 @@ li a {
     border-radius: 10px;
 }
 
-.box1 p{
+.box1 p, .box1 h1{
     text-wrap: wrap;
     top: -6%;
 }
@@ -98,10 +87,10 @@ li a {
     border-radius: 10px;
 }
 
-.box2 p{
+.box2 p, .box2 h1{
     top: -6%;
     text-align: left;
-    right: 49.5%;
+    left: 1%;
     width: 50%;
     text-wrap: wrap;
 }
