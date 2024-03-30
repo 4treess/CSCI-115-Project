@@ -60,7 +60,7 @@ li a {
     font-size: 5vw;
 }
 
-.background p{
+.background p, form{
     text-wrap: nowrap; 
     position: absolute; 
     font-size: 3vw;
@@ -93,4 +93,9 @@ li a {
     left: 1%;
     width: 50%;
     text-wrap: wrap;
+}
+
+#dropdown{
+    width: 35%;
+    font-size: 2vw;
 }
