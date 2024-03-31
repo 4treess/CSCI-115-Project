@@ -61,7 +61,7 @@ li a {
 
 .background p, form{
     position: absolute; 
-    font-size: 3vw;
+    font-size: 2.8vw;
 }
 
 .box1 img {
@@ -92,6 +92,6 @@ li a {
 }
 
 #dropdown{
-    width: 35%;
+    width: 50%;
     font-size: 2vw;
 }
