@@ -11,6 +11,7 @@ body{
     background-color: #2e81ff;
     z-index: 1024;
     font-size: 2vw;
+    color: white;
 }
 
 .NavBar ul{
@@ -24,6 +25,10 @@ body{
     padding-right: 4%;
 }
 
+.NavBar a:visited{
+    color: #eeeeee;
+}
+
 .NavBar a:hover{
     color: #22ff22;
 }
@@ -32,9 +37,10 @@ body{
     color: #f22
 }
 
+
+
 li a {
     text-decoration: none;
-    color: #eeeeee;
 }
 
 .Navbar li a {
