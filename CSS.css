@@ -11,6 +11,10 @@ body{
     background-color: #0000ff;
     z-index: 1024;
     font-size: 2vw;
+
+}
+
+.NavBar a{
     color: white;
 }
 
