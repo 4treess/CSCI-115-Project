@@ -10,6 +10,7 @@ body{
     top: 4px;
     background-color: #2e81ff;
     z-index: 1024;
+    font-size: 2vw;
 }
 
 .NavBar ul{
@@ -69,7 +70,7 @@ li a {
 
 .background p{
     position: absolute; 
-    font-size: 2.8vw;
+    font-size: 2.6vw;
 }
 
 .box1 img {
