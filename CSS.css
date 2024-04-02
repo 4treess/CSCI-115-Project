@@ -8,7 +8,7 @@ body{
     padding: 0.25% 0%;
     position: sticky;
     top: 4px;
-    background-color: #2e81ff;
+    background-color: #0000ff;
     z-index: 1024;
     font-size: 2vw;
     color: white;
@@ -30,11 +30,11 @@ body{
 }
 
 .NavBar a:hover{
-    color: #22ff22;
+    color: #99ff99;
 }
 
 .NavBar a:active{
-    color: #f22
+    color: #77fefa;
 }
 
 
